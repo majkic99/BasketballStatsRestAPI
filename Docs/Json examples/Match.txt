@@ -1,0 +1,8 @@
+{
+    "host": String,
+    "guest": String,
+    "hostPoints": number,
+    "guestPoints": number,
+    "id": number,
+    "finished": boolean
+}

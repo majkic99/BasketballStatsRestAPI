@@ -1,0 +1,73 @@
+{
+    "host": {
+      "id": number,
+      "name": String,
+      "city": String,
+      "playerList": [
+	{
+          "id": number,
+          "teamId": number,
+          "firstName": String,
+          "lastName": String,
+          "number": number,
+          "height": number,
+          "age": number,
+          "position": String
+        }]
+    },
+	"guest": {
+      "id": number,
+      "name": String,
+      "city": String,
+      "playerList": [
+	{
+          "id": number,
+          "teamId": number,
+          "firstName": String,
+          "lastName": String,
+          "number": number,
+          "height": number,
+          "age": number,
+          "position": String
+        }]
+    },
+    "hostPoints": number,
+    "guestPoints": number,
+    "id": number,
+"pointsMap": {
+     "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number
+  },
+  "assistsMap": {
+     "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number
+  },
+  "jumpsMap": {
+     "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number,
+    "{player_id}": number
+  }
+}

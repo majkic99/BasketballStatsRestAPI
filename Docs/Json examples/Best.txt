@@ -1,0 +1,11 @@
+{
+  "Points": {
+    "{firstname} {lastname}": number
+  },
+  "Assists": {
+    "{firstname} {lastname}": number
+  },
+  "Jumps": {
+    "{firstname} {lastname}": number
+  }
+}

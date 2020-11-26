@@ -1,0 +1,1354 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+    <XMI xmlns:UML="//org.omg/UML/1.3" xmi.version="1.1">
+        <XMI.header>
+            <XMI.documentation>
+                <XMI.exporter>PowerDesigner</XMI.exporter>
+            </XMI.documentation>
+            <XMI.metamodel xmi.name="UML" xmi.version="1.3"/>
+        </XMI.header>
+        <XMI.content>
+            <UML:Model name="Dijagram Klasa" xmi.id="{CE2A6772-2E09-45CE-96F8-C6D794D6EC2F}">
+                <UML:ModelElement.taggedValue>
+                    <UML:TaggedValue tag="SchemaNamespace" value="http://www.w3.org/2001/XMLSchema"/>
+                    <UML:TaggedValue tag="SoapBindingTransport" value="http://schemas.xmlsoap.org/soap/http"/>
+                    <UML:TaggedValue tag="JarFileName" value="%Code%.jar"/>
+                </UML:ModelElement.taggedValue>
+                <UML:Namespace.ownedElement>
+                    <UML:Class name="Team" isLeaf="false" xmi.id="{8E39A7C6-4D60-4DCC-8E4C-790B77E5CCAF}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="id" xmi.id="{0957F960-6805-489B-94B9-BCA1297B3513}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp0"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="name" xmi.id="{E5899C2C-FF8E-4B0C-958E-69D1A05596B0}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp1"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="city" xmi.id="{C82C2C07-9AA7-4B13-BAEF-302DFC3CDCAC}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp1"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Operation name="Team" isLeaf="false" xmi.id="{D818FF2D-B7FB-4AA6-A3C9-FCD5D3BCBA9F}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{D818FF2D-B7FB-4AA6-A3C9-FCD5D3BCBA9F}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="Player" isLeaf="false" xmi.id="{6996B523-9151-4B14-9140-1C166483956B}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="id" xmi.id="{A1F99F5E-8048-4E32-BE1B-55E55DFEDF6F}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp0"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="firstName" xmi.id="{3CF75102-578F-4550-B42E-9A66847B9170}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp1"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="lastName" xmi.id="{75A7B6B4-9822-4696-85CD-35483DD8FFC9}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp1"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="number" xmi.id="{93DC0E2E-2F2F-452E-88CF-2ED021CF8E5A}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="height" xmi.id="{BA4499EB-BC07-4B35-B2D2-4EC21B6DEA41}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="age" xmi.id="{82423252-9CA7-495A-967F-23EF849A388B}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Operation name="Player" isLeaf="false" xmi.id="{EADC63BA-49D6-4AB7-91E0-DE251E0EC7A5}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{EADC63BA-49D6-4AB7-91E0-DE251E0EC7A5}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="Event" isLeaf="false" xmi.id="{9D3F160C-08AA-4398-9668-737167903464}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="game" xmi.id="{E515DE94-ECA3-4F04-83EE-73482149CA2E}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp0"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Operation name="Event" isLeaf="false" xmi.id="{690D1B3F-0F78-429F-8836-EE3752755483}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{690D1B3F-0F78-429F-8836-EE3752755483}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="Match" isLeaf="false" xmi.id="{ED352215-2EFC-402A-AF3E-5281FB4EA31D}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="hostPoints" xmi.id="{70C53499-88BD-42D1-B26D-2730E1137205}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="guestPoints" xmi.id="{6C8BCE17-74E7-465C-938D-2642C22C6424}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="id" xmi.id="{A342A718-AE0D-457C-8B3D-25BC01214ED1}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp0"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="Payload" isLeaf="false" xmi.id="{BA142FE2-423C-4301-91DF-14018232B44A}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="value" xmi.id="{293F9BF4-6978-4B3D-90D1-2AB7A2A17C4C}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Operation name="Payload" isLeaf="false" xmi.id="{88D2063B-8FFB-45A3-8EBA-9DDF1543987E}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{88D2063B-8FFB-45A3-8EBA-9DDF1543987E}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="EventType" isLeaf="false" xmi.id="{2EE65ADB-DC62-4D17-8A1A-9074624A7C2F}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="Type" xmi.id="{D0566B23-C632-4104-ACDE-E44CB70B3125}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="PlayerPosition" isLeaf="false" xmi.id="{FD8F425F-1E08-4801-8478-A2C89856661D}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="position" xmi.id="{91EFB70B-E298-488D-8024-7C65BD6EA411}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="Storage" isLeaf="false" xmi.id="{C8F3C7E0-8D01-46C4-B54E-99611F932F75}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Operation name="loadEverything" isLeaf="false" xmi.id="{1A8A4A95-64CC-4072-8F7A-1D4ABEA44647}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{1A8A4A95-64CC-4072-8F7A-1D4ABEA44647}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp3"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getInstance" isLeaf="false" xmi.id="{14850038-63B8-4F85-AE7F-73CC9ADCB983}" isAbstract="false" ownerScope="classifier" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{14850038-63B8-4F85-AE7F-73CC9ADCB983}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp4"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="Storage" isLeaf="false" xmi.id="{353C47FA-ED3F-4E59-9E0B-90B5A5CA4EFE}" isAbstract="false" ownerScope="instance" visibility="private">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{353C47FA-ED3F-4E59-9E0B-90B5A5CA4EFE}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getMatchbyID" isLeaf="false" xmi.id="{8B6EA4D1-7639-4782-AF69-07F0BA1AFC59}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{8B6EA4D1-7639-4782-AF69-07F0BA1AFC59}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp5"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getTeambyID" isLeaf="false" xmi.id="{4E30505D-B051-4768-8DE5-AD3E63307266}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{4E30505D-B051-4768-8DE5-AD3E63307266}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp6"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getPlayerbyID" isLeaf="false" xmi.id="{3B12AEA0-1A3D-4752-B38A-799991FE6463}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{3B12AEA0-1A3D-4752-B38A-799991FE6463}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp7"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getPlayerPoints" isLeaf="false" xmi.id="{683DA26F-763C-4463-9901-333198617AC8}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{683DA26F-763C-4463-9901-333198617AC8}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp0"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getPlayerJumps" isLeaf="false" xmi.id="{EB0F766D-C77A-4A26-BCB4-6C287174A3FD}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{EB0F766D-C77A-4A26-BCB4-6C287174A3FD}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp0"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getPlayerAssists" isLeaf="false" xmi.id="{9B69E19E-B71B-4DC3-BD59-51B268C1E513}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{9B69E19E-B71B-4DC3-BD59-51B268C1E513}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp0"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getAveragePlayerPoints" isLeaf="false" xmi.id="{2022D5FE-8D03-4511-B298-E2AAA817E2EE}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{2022D5FE-8D03-4511-B298-E2AAA817E2EE}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp8"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getAveragePlayerAssists" isLeaf="false" xmi.id="{B7F8291C-F1CF-4B87-B1C9-39F2E1B2AE20}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{B7F8291C-F1CF-4B87-B1C9-39F2E1B2AE20}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp8"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getAveragePlayerJumps" isLeaf="false" xmi.id="{818F23DB-7ED4-4767-BA05-65103D660CAE}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{818F23DB-7ED4-4767-BA05-65103D660CAE}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp8"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getHighestScorers" isLeaf="false" xmi.id="{9C307E1C-CF31-439A-BF07-755F4347D8B2}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{9C307E1C-CF31-439A-BF07-755F4347D8B2}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp8"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getHighestAssists" isLeaf="false" xmi.id="{1BE2F999-A941-4203-B8E3-DCF0C3216345}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{1BE2F999-A941-4203-B8E3-DCF0C3216345}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp8"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="getHighestJumps" isLeaf="false" xmi.id="{7073B135-D619-4D5D-B0D7-2155DFC36509}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{7073B135-D619-4D5D-B0D7-2155DFC36509}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp8"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="isDoubleDouble" isLeaf="false" xmi.id="{694573F7-EB81-4C06-8072-CD68B2C75DF4}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{694573F7-EB81-4C06-8072-CD68B2C75DF4}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp9"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="mostDoubleDoubles" isLeaf="false" xmi.id="{DDEB3408-6A02-4160-AC35-07203F2D8732}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{DDEB3408-6A02-4160-AC35-07203F2D8732}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp10"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="winPercentagebyTeam" isLeaf="false" xmi.id="{A7D460C7-8C6C-4640-8487-8DAEF48353E9}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{A7D460C7-8C6C-4640-8487-8DAEF48353E9}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp8"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="pointsScoredByTeam" isLeaf="false" xmi.id="{DB8E154A-C864-407D-8746-83697C6DE748}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{DB8E154A-C864-407D-8746-83697C6DE748}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp0"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="pointsReceivedByTeam" isLeaf="false" xmi.id="{C2563209-E3BF-40D6-9099-541108940A4D}" isAbstract="false" ownerScope="instance" visibility="public">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{C2563209-E3BF-40D6-9099-541108940A4D}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp0"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="loadTeams" isLeaf="false" xmi.id="{77F00270-F475-4289-8334-CBA0893AE7F8}" isAbstract="false" ownerScope="instance" visibility="private">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{77F00270-F475-4289-8334-CBA0893AE7F8}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp3"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="loadPlayers" isLeaf="false" xmi.id="{BFBA9E00-B1C8-4072-B787-1A534970C75F}" isAbstract="false" ownerScope="instance" visibility="private">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{BFBA9E00-B1C8-4072-B787-1A534970C75F}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp3"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="putPlayersInTeams" isLeaf="false" xmi.id="{F4604F73-C15C-4067-A6DE-E6C8A56ED56C}" isAbstract="false" ownerScope="instance" visibility="private">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{F4604F73-C15C-4067-A6DE-E6C8A56ED56C}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp3"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="loadGames" isLeaf="false" xmi.id="{1A9DEBB4-E59F-4C1C-AB6D-633C0C199806}" isAbstract="false" ownerScope="instance" visibility="private">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{1A9DEBB4-E59F-4C1C-AB6D-633C0C199806}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp3"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                            <UML:Operation name="finalResult" isLeaf="false" xmi.id="{07A18277-F3B3-4CCD-8ABF-16443F0A12D3}" isAbstract="false" ownerScope="instance" visibility="private">
+                                <UML:BehavioralFeature.parameter>
+                                    <UML:Parameter xmi.id="{07A18277-F3B3-4CCD-8ABF-16443F0A12D3}">
+                                        <UML:Parameter.kind xmi.value="return"/>
+                                        <UML:Parameter.type>
+                                            <UML:Classifier xmi.idref="Dttp3"/>
+                                        </UML:Parameter.type>
+                                    </UML:Parameter>
+                                </UML:BehavioralFeature.parameter>
+                            </UML:Operation>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="MatchOverview" isLeaf="false" xmi.id="{4851BBFF-C4D4-43D0-B05D-08E05FF2F36A}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="host" xmi.id="{83702931-0CF7-4CB5-90F4-BC50A85CF527}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="guest" xmi.id="{9FAC0656-48FE-4D64-8A15-4DC5EDA3AB96}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="hostPoints" xmi.id="{D4FBD51D-6D65-4074-837A-C806148C0B14}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp6"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="guestPoints" xmi.id="{9880A8D1-9B73-4448-B555-065184FBA41C}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp6"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="id" xmi.id="{0BDB859B-F396-4816-9C50-60F8B8C2B701}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp11"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="PlayerStatsOverview" isLeaf="false" xmi.id="{ABA38142-CBE4-4679-891D-51E2EB7916A0}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="player" xmi.id="{0FE4A2DB-C571-4107-AC9D-F76E99DFAFE7}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp7"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="points" xmi.id="{D64B803E-8C8E-4582-9B78-CB48C4F370DF}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="jumps" xmi.id="{9AFCD9A1-530F-48C8-BF5A-BBEE8EF17F4D}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="assists" xmi.id="{4DBF5415-21CC-435D-97A4-A70D00681F6D}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="gamesPlayed" xmi.id="{B4EB3661-BC8F-4C0D-B661-6E35808DA29E}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp2"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Class name="TeamResultsOverview" isLeaf="false" xmi.id="{08191304-89AE-4DC4-98AF-D05FE1A9F2D8}" isAbstract="false" visibility="public">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="strictfp" value="false"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Classifier.feature>
+                            <UML:Attribute name="team" xmi.id="{EFB22BC5-C591-4FC4-874A-298C956CEC33}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp6"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="pointsScored" xmi.id="{3971237C-6496-4C0C-BF2F-90C7990446B1}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp0"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="pointsReceived" xmi.id="{C5B67C42-3D58-4A2F-B983-3D4741D6460D}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp0"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                            <UML:Attribute name="winRate" xmi.id="{235BECD6-0364-42C2-B216-B0990D328F17}" ownerScope="instance" visibility="private" changeability="changeable">
+                                <UML:StructuralFeature.type>
+                                    <UML:Classifier xmi.idref="Dttp8"/>
+                                </UML:StructuralFeature.type>
+                            </UML:Attribute>
+                        </UML:Classifier.feature>
+                    </UML:Class>
+                    <UML:Association name="Association_7" xmi.id="{0E33E4A3-1155-42D3-BE71-2908ACAEB792}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="&lt;None&gt;"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{0E33E4A3-1155-42D3-BE71-2908ACAEB792}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{6996B523-9151-4B14-9140-1C166483956B}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{0E33E4A3-1155-42D3-BE71-2908ACAEB792}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{FD8F425F-1E08-4801-8478-A2C89856661D}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Association_15" xmi.id="{134D6C01-7176-494D-8788-3C2180C4A4C6}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{134D6C01-7176-494D-8788-3C2180C4A4C6}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{ABA38142-CBE4-4679-891D-51E2EB7916A0}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{134D6C01-7176-494D-8788-3C2180C4A4C6}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{6996B523-9151-4B14-9140-1C166483956B}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Dogadjaj je vezan za jednu utakmicu" xmi.id="{1D339E05-3998-417F-B87D-0DD96870E7CD}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{1D339E05-3998-417F-B87D-0DD96870E7CD}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{9D3F160C-08AA-4398-9668-737167903464}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{1D339E05-3998-417F-B87D-0DD96870E7CD}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{ED352215-2EFC-402A-AF3E-5281FB4EA31D}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Dogadjaj ima detalje" xmi.id="{23613C9B-FDF5-4FE4-AA6B-F14089B64BF1}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="&lt;None&gt;"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{23613C9B-FDF5-4FE4-AA6B-F14089B64BF1}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{9D3F160C-08AA-4398-9668-737167903464}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{23613C9B-FDF5-4FE4-AA6B-F14089B64BF1}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{BA142FE2-423C-4301-91DF-14018232B44A}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Mec ima gosta" xmi.id="{2A3F2475-D827-4DEA-8451-7CE51C8E976A}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="&lt;None&gt;"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{2A3F2475-D827-4DEA-8451-7CE51C8E976A}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{ED352215-2EFC-402A-AF3E-5281FB4EA31D}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{2A3F2475-D827-4DEA-8451-7CE51C8E976A}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{8E39A7C6-4D60-4DCC-8E4C-790B77E5CCAF}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Association_16" xmi.id="{397F70CA-AA22-4404-A96C-BCEF555B3BD1}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{397F70CA-AA22-4404-A96C-BCEF555B3BD1}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{08191304-89AE-4DC4-98AF-D05FE1A9F2D8}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{397F70CA-AA22-4404-A96C-BCEF555B3BD1}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{8E39A7C6-4D60-4DCC-8E4C-790B77E5CCAF}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Tim ima Igrace" xmi.id="{405217B6-C351-4861-A700-1B43D3880521}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{405217B6-C351-4861-A700-1B43D3880521}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{8E39A7C6-4D60-4DCC-8E4C-790B77E5CCAF}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{405217B6-C351-4861-A700-1B43D3880521}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{6996B523-9151-4B14-9140-1C166483956B}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Mec ima domacina" xmi.id="{64B36B51-594B-4C41-8127-A2C922954B12}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="&lt;None&gt;"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{64B36B51-594B-4C41-8127-A2C922954B12}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{ED352215-2EFC-402A-AF3E-5281FB4EA31D}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{64B36B51-594B-4C41-8127-A2C922954B12}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{8E39A7C6-4D60-4DCC-8E4C-790B77E5CCAF}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Skladiste ima listu utakmica" xmi.id="{A7B3F03A-0E04-4BB4-9F3E-371E333658BE}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{A7B3F03A-0E04-4BB4-9F3E-371E333658BE}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{C8F3C7E0-8D01-46C4-B54E-99611F932F75}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{A7B3F03A-0E04-4BB4-9F3E-371E333658BE}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{ED352215-2EFC-402A-AF3E-5281FB4EA31D}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Dogadjaj moze biti vezan i za igraca" xmi.id="{B52FC968-A60B-4F5B-A5C4-F657A16A65A4}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="&lt;None&gt;"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{B52FC968-A60B-4F5B-A5C4-F657A16A65A4}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{9D3F160C-08AA-4398-9668-737167903464}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{B52FC968-A60B-4F5B-A5C4-F657A16A65A4}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{6996B523-9151-4B14-9140-1C166483956B}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Skladiste ima listu dogadjaja" xmi.id="{C6F5CCE2-EDB0-4CEF-864F-83DB4EEFBE92}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{C6F5CCE2-EDB0-4CEF-864F-83DB4EEFBE92}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{C8F3C7E0-8D01-46C4-B54E-99611F932F75}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{C6F5CCE2-EDB0-4CEF-864F-83DB4EEFBE92}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{9D3F160C-08AA-4398-9668-737167903464}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Skladiste ima listu timova" xmi.id="{CA605C94-17B1-441B-9631-30F0346482BC}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{CA605C94-17B1-441B-9631-30F0346482BC}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{C8F3C7E0-8D01-46C4-B54E-99611F932F75}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{CA605C94-17B1-441B-9631-30F0346482BC}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{8E39A7C6-4D60-4DCC-8E4C-790B77E5CCAF}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Skladiste ima listu igraca" xmi.id="{CABE07C3-094D-4CEC-B367-0E7551F65B4E}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{CABE07C3-094D-4CEC-B367-0E7551F65B4E}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{C8F3C7E0-8D01-46C4-B54E-99611F932F75}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{CABE07C3-094D-4CEC-B367-0E7551F65B4E}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{6996B523-9151-4B14-9140-1C166483956B}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Association_6" xmi.id="{D0834AEF-B458-495E-BD33-61D4854D2697}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="&lt;None&gt;"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{D0834AEF-B458-495E-BD33-61D4854D2697}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{9D3F160C-08AA-4398-9668-737167903464}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{D0834AEF-B458-495E-BD33-61D4854D2697}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{2EE65ADB-DC62-4D17-8A1A-9074624A7C2F}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>1</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Association_14" xmi.id="{D2473AE0-410C-4F7C-8F82-26DAE6395870}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{D2473AE0-410C-4F7C-8F82-26DAE6395870}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{4851BBFF-C4D4-43D0-B05D-08E05FF2F36A}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{D2473AE0-410C-4F7C-8F82-26DAE6395870}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{ED352215-2EFC-402A-AF3E-5281FB4EA31D}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                    <UML:Association name="Skladiste ima listu pogresno napisanih dogadjaja" xmi.id="{F680D8A8-667D-4108-8F29-07C0C8DBA059}">
+                        <UML:ModelElement.taggedValue>
+                            <UML:TaggedValue tag="roleAContainer" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleAImplementationClass" value="&lt;None&gt;"/>
+                            <UML:TaggedValue tag="roleBContainer" value="java.util.Collection"/>
+                            <UML:TaggedValue tag="roleBImplementationClass" value="java.util.HashSet"/>
+                        </UML:ModelElement.taggedValue>
+                        <UML:Association.connection>
+                            <UML:AssociationEnd xmi.id="{F680D8A8-667D-4108-8F29-07C0C8DBA059}a" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="false"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{C8F3C7E0-8D01-46C4-B54E-99611F932F75}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                            <UML:AssociationEnd xmi.id="{F680D8A8-667D-4108-8F29-07C0C8DBA059}b" visibility="public">
+                                <UML:AssociationEnd.aggregation xmi.value="none"/>
+                                <UML:AssociationEnd.changeability xmi.value="changeable"/>
+                                <UML:AssociationEnd.isNavigable xmi.value="true"/>
+                                <UML:AssociationEnd.ordering xmi.value="unordered"/>
+                                <UML:AssociationEnd.type>
+                                    <UML:Classifier xmi.idref="{9D3F160C-08AA-4398-9668-737167903464}"/>
+                                </UML:AssociationEnd.type>
+                                <UML:AssociationEnd.multiplicity>
+                                    <UML:Multiplicity>
+                                        <UML:Multiplicity.range>
+                                            <UML:MultiplicityRange>
+                                                <UML:MultiplicityRange.lower>0</UML:MultiplicityRange.lower>
+                                                <UML:MultiplicityRange.upper>-1</UML:MultiplicityRange.upper>
+                                            </UML:MultiplicityRange>
+                                        </UML:Multiplicity.range>
+                                    </UML:Multiplicity>
+                                </UML:AssociationEnd.multiplicity>
+                            </UML:AssociationEnd>
+                        </UML:Association.connection>
+                    </UML:Association>
+                </UML:Namespace.ownedElement>
+            </UML:Model>
+            <UML:DataType name="long" xmi.id="Dttp0"/>
+            <UML:DataType name="String" xmi.id="Dttp1"/>
+            <UML:Stereotype name="Constructor" xmi.id="Strn0">
+                <UML:Stereotype.baseClass xmi.value="Operation"/>
+                <UML:Stereotype.extendedElement/>
+            </UML:Stereotype>
+            <UML:DataType name="int" xmi.id="Dttp2"/>
+            <UML:Stereotype name="Enumeration" xmi.id="Strn1">
+                <UML:Stereotype.baseClass xmi.value="Class"/>
+                <UML:Stereotype.extendedElement>
+                    <UML:ModelElement xmi.idref="{2EE65ADB-DC62-4D17-8A1A-9074624A7C2F}"/>
+                    <UML:ModelElement xmi.idref="{FD8F425F-1E08-4801-8478-A2C89856661D}"/>
+                </UML:Stereotype.extendedElement>
+            </UML:Stereotype>
+            <UML:DataType name="void" xmi.id="Dttp3"/>
+            <UML:DataType name="Storage" xmi.id="Dttp4"/>
+            <UML:DataType name="Match" xmi.id="Dttp5"/>
+            <UML:DataType name="Team" xmi.id="Dttp6"/>
+            <UML:DataType name="Player" xmi.id="Dttp7"/>
+            <UML:DataType name="double" xmi.id="Dttp8"/>
+            <UML:DataType name="boolean" xmi.id="Dttp9"/>
+            <UML:DataType name="Map&lt;Player&gt;" xmi.id="Dttp10"/>
+            <UML:DataType name="id" xmi.id="Dttp11"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal0" modelElement="{08191304-89AE-4DC4-98AF-D05FE1A9F2D8}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal1" modelElement="{0957F960-6805-489B-94B9-BCA1297B3513}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal2" modelElement="{0BDB859B-F396-4816-9C50-60F8B8C2B701}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal3" modelElement="{0FE4A2DB-C571-4107-AC9D-F76E99DFAFE7}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal4" modelElement="{235BECD6-0364-42C2-B216-B0990D328F17}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal5" modelElement="{293F9BF4-6978-4B3D-90D1-2AB7A2A17C4C}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal6" modelElement="{2EE65ADB-DC62-4D17-8A1A-9074624A7C2F}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal7" modelElement="{3971237C-6496-4C0C-BF2F-90C7990446B1}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal8" modelElement="{3CF75102-578F-4550-B42E-9A66847B9170}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal9" modelElement="{4851BBFF-C4D4-43D0-B05D-08E05FF2F36A}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal10" modelElement="{4DBF5415-21CC-435D-97A4-A70D00681F6D}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal11" modelElement="{6996B523-9151-4B14-9140-1C166483956B}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal12" modelElement="{6C8BCE17-74E7-465C-938D-2642C22C6424}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal13" modelElement="{70C53499-88BD-42D1-B26D-2730E1137205}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal14" modelElement="{75A7B6B4-9822-4696-85CD-35483DD8FFC9}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal15" modelElement="{82423252-9CA7-495A-967F-23EF849A388B}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal16" modelElement="{83702931-0CF7-4CB5-90F4-BC50A85CF527}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal17" modelElement="{8E39A7C6-4D60-4DCC-8E4C-790B77E5CCAF}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal18" modelElement="{91EFB70B-E298-488D-8024-7C65BD6EA411}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal19" modelElement="{93DC0E2E-2F2F-452E-88CF-2ED021CF8E5A}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal20" modelElement="{9880A8D1-9B73-4448-B555-065184FBA41C}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal21" modelElement="{9AFCD9A1-530F-48C8-BF5A-BBEE8EF17F4D}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal22" modelElement="{9D3F160C-08AA-4398-9668-737167903464}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal23" modelElement="{9FAC0656-48FE-4D64-8A15-4DC5EDA3AB96}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal24" modelElement="{A1F99F5E-8048-4E32-BE1B-55E55DFEDF6F}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal25" modelElement="{A342A718-AE0D-457C-8B3D-25BC01214ED1}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal26" modelElement="{ABA38142-CBE4-4679-891D-51E2EB7916A0}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal27" modelElement="{B4EB3661-BC8F-4C0D-B661-6E35808DA29E}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal28" modelElement="{BA142FE2-423C-4301-91DF-14018232B44A}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal29" modelElement="{BA4499EB-BC07-4B35-B2D2-4EC21B6DEA41}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal30" modelElement="{C5B67C42-3D58-4A2F-B983-3D4741D6460D}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal31" modelElement="{C82C2C07-9AA7-4B13-BAEF-302DFC3CDCAC}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal32" modelElement="{C8F3C7E0-8D01-46C4-B54E-99611F932F75}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal33" modelElement="{D0566B23-C632-4104-ACDE-E44CB70B3125}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal34" modelElement="{D4FBD51D-6D65-4074-837A-C806148C0B14}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal35" modelElement="{D64B803E-8C8E-4582-9B78-CB48C4F370DF}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal36" modelElement="{E515DE94-ECA3-4F04-83EE-73482149CA2E}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal37" modelElement="{E5899C2C-FF8E-4B0C-958E-69D1A05596B0}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal38" modelElement="{ED352215-2EFC-402A-AF3E-5281FB4EA31D}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal39" modelElement="{EFB22BC5-C591-4FC4-874A-298C956CEC33}"/>
+            <UML:TaggedValue tag="persistence" value="persistent" xmi.id="TagVal40" modelElement="{FD8F425F-1E08-4801-8478-A2C89856661D}"/>
+        </XMI.content>
+    </XMI>

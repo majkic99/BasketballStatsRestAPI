@@ -1,0 +1,20 @@
+"team": {
+      "id": number,
+      "name": String,
+      "city": String,
+      "playerList": [
+	{
+          "id": number,
+          "teamId": number,
+          "firstName": String,
+          "lastName": String,
+          "number": number,
+          "height": number,
+          "age": number,
+          "position": String
+        }]
+    },
+    "pointsScored": number,
+    "pointsReceived": number,
+    "winRate": number
+}

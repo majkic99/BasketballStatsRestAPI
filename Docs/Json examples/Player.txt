@@ -1,0 +1,16 @@
+{
+  "player": {
+    "id": number,
+    "teamId": number,
+    "firstName": String,
+    "lastName": String,
+    "number": number,
+    "height": number,
+    "age": number,
+    "position": String
+  },
+  "points": number,
+  "jumps": number,
+  "assists": number,
+  "gamesPlayed": number
+}

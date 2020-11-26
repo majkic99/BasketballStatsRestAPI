@@ -1,0 +1,14 @@
+package petdananajavi.sanjaorganizator.model.enums;
+
+public enum FailedEvents {
+    ENDEDEARLIER,
+    WRONGVALUE,
+    PLAYERNOTINTEAM,
+    ASSISTBEFOREHAND,
+    ASSISTTOYOURSELF,
+    ASSISTANDONEPOINTER,
+    ASSISTTOOPPONENT,
+    SAMETEAMGAME,
+    TEAMNOTEXISTANT,
+    ALREADYSTARTED
+}

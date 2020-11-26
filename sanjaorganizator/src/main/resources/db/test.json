@@ -1,0 +1,26 @@
+[
+  {
+    "game": 1,
+    "type": "START",
+    "payload": {
+      "hostId": 4,
+      "guestId": 3
+    }
+  },
+  {
+    "game": 1,
+    "type": "ASSIST",
+    "payload": {
+      "playerId": 254,
+      "value": 1
+    }
+  },
+  {
+    "game": 1,
+    "type": "JUMP",
+    "payload": {
+      "playerId": 254,
+      "value": 1
+    }
+  }
+  ]
