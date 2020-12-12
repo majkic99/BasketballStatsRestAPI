@@ -1,12 +1,1 @@
-Event{game=6, type=POINT, payload=Payload{hostId=0, playerId=83, guestId=0, value=1}}ASSISTANDONEPOINTER
 Event{game=2, type=JUMP, payload=Payload{hostId=0, playerId=341, guestId=0, value=1}}ASSISTBEFOREHAND
-Event{game=4, type=POINT, payload=Payload{hostId=0, playerId=83, guestId=0, value=3}}ENDEDEARLIER
-Event{game=6, type=ASSIST, payload=Payload{hostId=0, playerId=45, guestId=0, value=1}}ASSISTANDONEPOINTER
-Event{game=1, type=ASSIST, payload=Payload{hostId=0, playerId=205, guestId=0, value=1}}ASSISTBEFOREHAND
-Event{game=1, type=ASSIST, payload=Payload{hostId=0, playerId=205, guestId=0, value=1}}ASSISTBEFOREHAND
-Event{game=2, type=ASSIST, payload=Payload{hostId=0, playerId=471, guestId=0, value=1}}ASSISTBEFOREHAND
-Event{game=7, type=START, payload=Payload{hostId=2, playerId=0, guestId=2, value=0}}SAMETEAMGAME
-Event{game=1, type=POINT, payload=Payload{hostId=0, playerId=204, guestId=0, value=1}}PLAYERNOTINTEAM
-Event{game=1, type=ASSIST, payload=Payload{hostId=0, playerId=205, guestId=0, value=1}}ASSISTBEFOREHAND
-Event{game=4, type=POINT, payload=Payload{hostId=0, playerId=83, guestId=0, value=3}}ENDEDEARLIER
-Event{game=1, type=ASSIST, payload=Payload{hostId=0, playerId=205, guestId=0, value=1}}ASSISTBEFOREHAND

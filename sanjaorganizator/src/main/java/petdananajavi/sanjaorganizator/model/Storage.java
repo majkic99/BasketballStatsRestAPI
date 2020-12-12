@@ -33,10 +33,10 @@ public class Storage {
     }
 
     public void loadEverything() throws FileNotFoundException {
-        loadTeams("C:\\Users\\Majkic\\Documents\\Projekat\\sanja_organizator_project\\sanjaorganizator\\src\\main\\resources\\db\\teams.json");
-        loadPlayers("C:\\Users\\Majkic\\Documents\\Projekat\\sanja_organizator_project\\sanjaorganizator\\src\\main\\resources\\db\\players.json");
+        loadTeams("src/main/resources/db/teams.json");
+        loadPlayers("src/main/resources/db/players.json");
         putPlayersInTeams();
-        loadEvents("C:\\Users\\Majkic\\Documents\\Projekat\\sanja_organizator_project\\sanjaorganizator\\src\\main\\resources\\db\\events_full.json");
+        loadEvents("src/main/resources/db/events_full.json");
         loadGames();
         writeLogs();
     }
