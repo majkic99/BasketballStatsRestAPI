@@ -1,3 +1,5 @@
+![alt text](https://github.com/majkic99/BasketballStatsRestAPI/blob/master/Docs/Frontend%20screenshots/HomePage.png)
+![alt text](https://github.com/majkic99/BasketballStatsRestAPI/blob/master/Docs/Frontend%20screenshots/MatchExample.png)
 # Basketball Statistics BY SANJA ORGANIZATOR
 
 Basketball statistics is a project that can bring you all the latest information about your favorite teams. Check out the latest results and be proud  of your home team. Learn about which player scored the most, who had the most assists and who jumps the best. Stats aggregated per game and per season.
